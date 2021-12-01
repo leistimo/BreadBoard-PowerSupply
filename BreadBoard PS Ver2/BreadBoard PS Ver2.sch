@@ -72,45 +72,45 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J2
 U 1 1 61B4BBCD
-P 7450 3050
-F 0 "J2" H 8200 3100 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8250 3000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7450 3050 50  0001 C CNN
-F 3 "~" H 7450 3050 50  0001 C CNN
-	1    7450 3050
+P 7350 3050
+F 0 "J2" H 8100 3100 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8150 3000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7350 3050 50  0001 C CNN
+F 3 "~" H 7350 3050 50  0001 C CNN
+	1    7350 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J3
 U 1 1 61B4C628
-P 7450 3550
-F 0 "J3" H 8200 3600 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8250 3500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7450 3550 50  0001 C CNN
-F 3 "~" H 7450 3550 50  0001 C CNN
-	1    7450 3550
+P 7350 3550
+F 0 "J3" H 8100 3600 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8150 3500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7350 3550 50  0001 C CNN
+F 3 "~" H 7350 3550 50  0001 C CNN
+	1    7350 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J5
 U 1 1 61B4D806
-P 7450 4050
-F 0 "J5" H 8200 4100 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8250 4000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7450 4050 50  0001 C CNN
-F 3 "~" H 7450 4050 50  0001 C CNN
-	1    7450 4050
+P 7350 4050
+F 0 "J5" H 8100 4100 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8150 4000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7350 4050 50  0001 C CNN
+F 3 "~" H 7350 4050 50  0001 C CNN
+	1    7350 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J4
 U 1 1 61B4DDFA
-P 7450 4550
-F 0 "J4" H 8200 4600 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8250 4500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7450 4550 50  0001 C CNN
-F 3 "~" H 7450 4550 50  0001 C CNN
-	1    7450 4550
+P 7350 4550
+F 0 "J4" H 8100 4600 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8150 4500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7350 4550 50  0001 C CNN
+F 3 "~" H 7350 4550 50  0001 C CNN
+	1    7350 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -252,27 +252,19 @@ Wire Wire Line
 	6700 3400 6700 3500
 NoConn ~ 6550 3200
 Wire Wire Line
-	7250 2950 7750 2950
+	7150 2950 7650 2950
 Wire Wire Line
-	7750 2950 7750 3050
+	7650 3450 7150 3450
 Wire Wire Line
-	7750 3550 7750 3450
+	7150 3450 7150 3550
 Wire Wire Line
-	7750 3450 7250 3450
+	7650 3950 7150 3950
 Wire Wire Line
-	7250 3450 7250 3550
+	7150 3950 7150 4050
 Wire Wire Line
-	7750 4050 7750 3950
+	7650 4450 7150 4450
 Wire Wire Line
-	7750 3950 7250 3950
-Wire Wire Line
-	7250 3950 7250 4050
-Wire Wire Line
-	7750 4550 7750 4450
-Wire Wire Line
-	7750 4450 7250 4450
-Wire Wire Line
-	7250 4450 7250 4550
+	7150 4450 7150 4550
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61AA8077
@@ -310,46 +302,104 @@ Wire Wire Line
 	6700 4200 6150 4200
 Wire Wire Line
 	6700 4050 6700 4200
-Text Label 7350 2950 0    50   ~ 0
+Text Label 7250 2950 0    50   ~ 0
 5V-out
 Wire Wire Line
-	7250 3050 7250 2950
-Text Label 7350 3450 0    50   ~ 0
+	7150 3050 7150 2950
+Text Label 7250 3450 0    50   ~ 0
 5V-out
-Text Label 7350 3950 0    50   ~ 0
+Text Label 7250 3950 0    50   ~ 0
 5V-out
-Text Label 7350 4450 0    50   ~ 0
+Text Label 7250 4450 0    50   ~ 0
 5V-out
 Wire Wire Line
-	7750 3300 7250 3300
+	7650 3300 7150 3300
 Wire Wire Line
-	7750 3150 7750 3300
+	7150 3150 7150 3300
 Wire Wire Line
-	7250 3150 7250 3300
+	7650 3800 7150 3800
 Wire Wire Line
-	7750 3800 7250 3800
+	7150 3650 7150 3800
 Wire Wire Line
-	7250 3650 7250 3800
+	7650 4300 7150 4300
 Wire Wire Line
-	7750 3650 7750 3800
+	7150 4150 7150 4300
 Wire Wire Line
-	7750 4300 7250 4300
+	7650 4800 7150 4800
 Wire Wire Line
-	7250 4150 7250 4300
-Wire Wire Line
-	7750 4150 7750 4300
-Wire Wire Line
-	7750 4800 7250 4800
-Wire Wire Line
-	7250 4650 7250 4800
-Wire Wire Line
-	7750 4650 7750 4800
-Text Label 7400 3300 0    50   ~ 0
+	7150 4650 7150 4800
+Text Label 7300 3300 0    50   ~ 0
 Gnd
-Text Label 7400 3800 0    50   ~ 0
+Text Label 7300 3800 0    50   ~ 0
 Gnd
-Text Label 7400 4300 0    50   ~ 0
+Text Label 7300 4300 0    50   ~ 0
 Gnd
-Text Label 7400 4800 0    50   ~ 0
+Text Label 7300 4800 0    50   ~ 0
 Gnd
+Wire Notes Line
+	3750 4900 3750 2750
+Wire Notes Line
+	3800 2750 3800 4900
+Wire Notes Line
+	3800 4900 4950 4900
+Wire Notes Line
+	4950 4900 4950 2750
+Wire Notes Line
+	4950 2750 3800 2750
+Wire Notes Line
+	5000 2750 5000 4900
+Wire Notes Line
+	5000 4900 6200 4900
+Wire Notes Line
+	6200 4900 6200 2750
+Wire Notes Line
+	6200 2750 5000 2750
+Wire Notes Line
+	6250 2750 6250 4900
+Wire Notes Line
+	7050 4900 7050 2750
+Wire Notes Line
+	6250 4900 7050 4900
+Wire Notes Line
+	6250 2750 7050 2750
+Wire Wire Line
+	7650 2950 7650 3050
+Wire Wire Line
+	7650 3150 7650 3300
+Wire Wire Line
+	7650 3450 7650 3550
+Wire Wire Line
+	7650 3650 7650 3800
+Wire Wire Line
+	7650 3950 7650 4050
+Wire Wire Line
+	7650 4150 7650 4300
+Wire Wire Line
+	7650 4450 7650 4550
+Wire Wire Line
+	7650 4650 7650 4800
+Wire Notes Line
+	7700 2750 7100 2750
+Wire Notes Line
+	7700 2750 7700 4900
+Wire Notes Line
+	7100 2750 7100 4900
+Wire Notes Line
+	7100 4900 7700 4900
+Wire Notes Line
+	2600 2750 2600 4900
+Wire Notes Line
+	3750 2750 2600 2750
+Wire Notes Line
+	3750 4900 2600 4900
+Text Notes 2950 2700 0    50   ~ 0
+Power Input
+Text Notes 3900 2700 0    50   ~ 0
+DC Rectifier maintains +V
+Text Notes 5250 2700 0    50   ~ 0
+5V Regulator
+Text Notes 6250 2700 0    50   ~ 0
+On/Off & Indicator
+Text Notes 7100 2700 0    50   ~ 0
+5V Connectors
 $EndSCHEMATC
