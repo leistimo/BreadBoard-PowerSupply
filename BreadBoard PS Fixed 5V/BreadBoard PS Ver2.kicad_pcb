@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.25)
     (user_trace_width 0.3)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -775,6 +775,16 @@
     (pad 1 thru_hole rect (at 0 0 270) (size 4.4 1.8) (drill oval 3.4 0.8) (layers *.Cu *.Mask)
       (net 4 "Net-(D1-Pad2)"))
     (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_Wuerth_6941xx301002.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063BH_Horizontal.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
