@@ -28,12 +28,12 @@ $EndComp
 $Comp
 L Device:CP1_Small C1
 U 1 1 61B3AA97
-P 5700 3550
-F 0 "C1" H 5791 3596 50  0000 L CNN
-F 1 "470µF" H 5791 3505 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5700 3550 50  0001 C CNN
-F 3 "~" H 5700 3550 50  0001 C CNN
-	1    5700 3550
+P 5700 3400
+F 0 "C1" H 5791 3446 50  0000 L CNN
+F 1 "470µF" H 5791 3355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5700 3400 50  0001 C CNN
+F 3 "~" H 5700 3400 50  0001 C CNN
+	1    5700 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -48,58 +48,47 @@ F 3 "~" H 7350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW1
-U 1 1 61B4A959
-P 7000 3100
-F 0 "SW1" H 7000 3385 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 7000 3294 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 7000 3100 50  0001 C CNN
-F 3 "~" H 7000 3100 50  0001 C CNN
-	1    7000 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x02_Odd_Even J2
 U 1 1 61B4BBCD
-P 8050 2850
-F 0 "J2" H 8800 2900 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8850 2800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8050 2850 50  0001 C CNN
-F 3 "~" H 8050 2850 50  0001 C CNN
-	1    8050 2850
+P 8000 2800
+F 0 "J2" H 8750 2850 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8800 2750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8000 2800 50  0001 C CNN
+F 3 "~" H 8000 2800 50  0001 C CNN
+	1    8000 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J3
 U 1 1 61B4C628
-P 8050 3350
-F 0 "J3" H 8800 3400 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8850 3300 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8050 3350 50  0001 C CNN
-F 3 "~" H 8050 3350 50  0001 C CNN
-	1    8050 3350
+P 8000 3300
+F 0 "J3" H 8750 3350 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8800 3250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8000 3300 50  0001 C CNN
+F 3 "~" H 8000 3300 50  0001 C CNN
+	1    8000 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J5
 U 1 1 61B4D806
-P 8050 3850
-F 0 "J5" H 8800 3900 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8850 3800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8050 3850 50  0001 C CNN
-F 3 "~" H 8050 3850 50  0001 C CNN
-	1    8050 3850
+P 8000 3800
+F 0 "J5" H 8750 3850 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8800 3750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8000 3800 50  0001 C CNN
+F 3 "~" H 8000 3800 50  0001 C CNN
+	1    8000 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J4
 U 1 1 61B4DDFA
-P 8050 4350
-F 0 "J4" H 8800 4400 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8850 4300 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8050 4350 50  0001 C CNN
-F 3 "~" H 8050 4350 50  0001 C CNN
-	1    8050 4350
+P 8000 4300
+F 0 "J4" H 8750 4350 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8800 4250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8000 4300 50  0001 C CNN
+F 3 "~" H 8000 4300 50  0001 C CNN
+	1    8000 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -113,14 +102,7 @@ F 3 "~" H 3850 3610 50  0001 C CNN
 	1    3800 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 3100 5700 3100
-Wire Wire Line
-	5700 3650 5700 4000
 Connection ~ 5700 4000
-Connection ~ 5700 3100
-Wire Wire Line
-	5700 3100 5700 3450
 Connection ~ 4600 3550
 Wire Wire Line
 	6800 3100 6800 3450
@@ -183,8 +165,6 @@ Wire Wire Line
 	5150 3200 5150 3100
 Connection ~ 5150 3100
 Wire Wire Line
-	5150 3100 5700 3100
-Wire Wire Line
 	5150 3400 5150 3550
 Wire Wire Line
 	4600 3550 4600 3700
@@ -230,19 +210,19 @@ Wire Wire Line
 	7350 3200 7350 3300
 NoConn ~ 7200 3000
 Wire Wire Line
-	7850 2750 8350 2750
+	7800 2700 8300 2700
 Wire Wire Line
-	8350 3250 7850 3250
+	8300 3200 7800 3200
 Wire Wire Line
-	7850 3250 7850 3350
+	7800 3200 7800 3300
 Wire Wire Line
-	8350 3750 7850 3750
+	8300 3700 7800 3700
 Wire Wire Line
-	7850 3750 7850 3850
+	7800 3700 7800 3800
 Wire Wire Line
-	8350 4250 7850 4250
+	8300 4200 7800 4200
 Wire Wire Line
-	7850 4250 7850 4350
+	7800 4200 7800 4300
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61AA8077
@@ -279,51 +259,51 @@ Wire Wire Line
 Wire Wire Line
 	7350 3850 7350 4000
 Wire Wire Line
-	7850 2850 7850 2750
+	7800 2800 7800 2700
 Wire Wire Line
-	8350 3100 7850 3100
+	8300 3050 7800 3050
 Wire Wire Line
-	7850 2950 7850 3100
+	7800 2900 7800 3050
 Wire Wire Line
-	8350 3600 7850 3600
+	8300 3550 7800 3550
 Wire Wire Line
-	7850 3450 7850 3600
+	7800 3400 7800 3550
 Wire Wire Line
-	8350 4100 7850 4100
+	8300 4050 7800 4050
 Wire Wire Line
-	7850 3950 7850 4100
+	7800 3900 7800 4050
 Wire Wire Line
-	8350 4600 7850 4600
+	8300 4550 7800 4550
 Wire Wire Line
-	7850 4450 7850 4600
-Text Label 8000 3100 0    50   ~ 0
+	7800 4400 7800 4550
+Text Label 7950 3050 0    50   ~ 0
 Gnd
-Text Label 8000 3600 0    50   ~ 0
+Text Label 7950 3550 0    50   ~ 0
 Gnd
-Text Label 8000 4100 0    50   ~ 0
+Text Label 7950 4050 0    50   ~ 0
 Gnd
-Text Label 8000 4600 0    50   ~ 0
+Text Label 7950 4550 0    50   ~ 0
 Gnd
 Wire Notes Line
 	6900 2550 6900 4700
 Wire Notes Line
 	7700 4700 7700 2550
 Wire Wire Line
-	8350 2750 8350 2850
+	8300 2700 8300 2800
 Wire Wire Line
-	8350 2950 8350 3100
+	8300 2900 8300 3050
 Wire Wire Line
-	8350 3250 8350 3350
+	8300 3200 8300 3300
 Wire Wire Line
-	8350 3450 8350 3600
+	8300 3400 8300 3550
 Wire Wire Line
-	8350 3750 8350 3850
+	8300 3700 8300 3800
 Wire Wire Line
-	8350 3950 8350 4100
+	8300 3900 8300 4050
 Wire Wire Line
-	8350 4250 8350 4350
+	8300 4200 8300 4300
 Wire Wire Line
-	8350 4450 8350 4600
+	8300 4400 8300 4550
 Wire Notes Line
 	8400 2550 8400 4700
 Wire Notes Line
@@ -338,21 +318,21 @@ Text Notes 6900 2500 0    50   ~ 0
 On/Off & Indicator
 Text Notes 7700 2500 0    50   ~ 0
 Vari-V Connectors
-Text Label 7900 2750 0    50   ~ 0
+Text Label 7850 2700 0    50   ~ 0
 VariV-out
-Text Label 7900 3250 0    50   ~ 0
+Text Label 7850 3200 0    50   ~ 0
 VariV-out
-Text Label 7900 3750 0    50   ~ 0
+Text Label 7850 3700 0    50   ~ 0
 VariV-out
-Text Label 7900 4250 0    50   ~ 0
+Text Label 7850 4200 0    50   ~ 0
 VariV-out
 $Comp
-L dk_PMIC-Voltage-Regulators-Linear:LM317T U?
+L dk_PMIC-Voltage-Regulators-Linear:LM317T U1
 U 1 1 61B0D111
 P 6250 3100
-F 0 "U?" H 6250 3387 60  0000 C CNN
+F 0 "U1" H 6250 3387 60  0000 C CNN
 F 1 "LM317T" H 6250 3281 60  0000 C CNN
-F 2 "digikey-footprints:TO-220-3" H 6450 3300 60  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6450 3300 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf" H 6450 3400 60  0001 L CNN
 F 4 "497-1575-5-ND" H 6450 3500 60  0001 L CNN "Digi-Key_PN"
 F 5 "LM317T" H 6450 3600 60  0001 L CNN "MPN"
@@ -367,10 +347,10 @@ F 12 "Active" H 6450 4300 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R2
 U 1 1 61B0DE8B
 P 6600 3300
-F 0 "R?" H 6668 3346 50  0000 L CNN
+F 0 "R2" H 6668 3346 50  0000 L CNN
 F 1 "240Ω" H 6668 3255 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6600 3300 50  0001 C CNN
 F 3 "~" H 6600 3300 50  0001 C CNN
@@ -378,12 +358,12 @@ F 3 "~" H 6600 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_US RV?
+L Device:R_POT_US RV1
 U 1 1 61B0F06C
 P 6250 3700
-F 0 "RV?" H 6183 3746 50  0000 R CNN
-F 1 "R_POT_US" H 6183 3655 50  0000 R CNN
-F 2 "" H 6250 3700 50  0001 C CNN
+F 0 "RV1" H 6183 3746 50  0000 R CNN
+F 1 "5KΩ" H 6183 3655 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal" H 6250 3700 50  0001 C CNN
 F 3 "~" H 6250 3700 50  0001 C CNN
 	1    6250 3700
 	1    0    0    -1  
@@ -415,7 +395,6 @@ Wire Wire Line
 	6400 3450 6250 3450
 Wire Wire Line
 	6800 3100 6600 3100
-Connection ~ 6800 3100
 Connection ~ 6600 3100
 Wire Wire Line
 	6500 4000 6800 4000
@@ -428,4 +407,25 @@ Wire Notes Line
 	3200 4700 8400 4700
 Wire Notes Line
 	3200 2550 8400 2550
+Wire Wire Line
+	5150 3100 5700 3100
+Wire Wire Line
+	5700 3500 5700 4000
+Wire Wire Line
+	5700 3300 5700 3100
+Connection ~ 5700 3100
+Wire Wire Line
+	5700 3100 5950 3100
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 61B01603
+P 7000 3100
+F 0 "SW1" H 7000 3385 50  0000 C CNN
+F 1 "SW_SPDT" H 7000 3294 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 7000 3100 50  0001 C CNN
+F 3 "~" H 7000 3100 50  0001 C CNN
+	1    7000 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 3100
 $EndSCHEMATC
