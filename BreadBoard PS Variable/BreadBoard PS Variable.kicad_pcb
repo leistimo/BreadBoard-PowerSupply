@@ -1559,7 +1559,7 @@
   (gr_text On (at 163.9189 87.7062 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Breadboard PS Variable\nTimothy S Leishman 12/7/21\n" (at 143.5608 100.6475 90) (layer B.SilkS) (tstamp 61AAC8AC)
+  (gr_text "Breadboard PS Variable\nTimothy S Leishman 12/8/21\n" (at 143.5608 100.6475 90) (layer B.SilkS) (tstamp 61AAC8AC)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_line (start 141.1224 75.6793) (end 141.1224 120.4341) (layer Edge.Cuts) (width 0.05) (tstamp 61A83976))
@@ -1669,7 +1669,7 @@
   (segment (start 167.624499 93.418399) (end 169.3145 95.1084) (width 0.3) (layer F.Cu) (net 10))
   (segment (start 166.8145 92.6084) (end 167.624499 93.418399) (width 0.3) (layer F.Cu) (net 10))
 
-  (zone (net 2) (net_name /Gnd) (layer B.Cu) (tstamp 61AE9436) (hatch edge 0.508)
+  (zone (net 2) (net_name /Gnd) (layer B.Cu) (tstamp 61B16BC6) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
